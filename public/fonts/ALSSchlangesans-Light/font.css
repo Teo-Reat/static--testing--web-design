@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'ALSSchlangesans-Light';
+  src: url('ALSSchlangesans-Light.eot');
+  src: url('ALSSchlangesans-Light.eot?#iefix') format('embedded-opentype'),
+       url('ALSSchlangesans-Light.svg#ALSSchlangesans-Light') format('svg'),
+       url('ALSSchlangesans-Light.ttf') format('truetype'),
+       url('ALSSchlangesans-Light.woff') format('woff'),
+       url('ALSSchlangesans-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

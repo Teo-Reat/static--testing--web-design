@@ -1,0 +1,292 @@
+/*fonts*/
+@font-face {
+    font-family: 'ALSSchlangesans-Bold';
+    src: url('/fonts/ALSSchlangesans-Bold/ALSSchlangesans-Bold.eot');
+    src: url('/fonts/ALSSchlangesans-Bold/ALSSchlangesans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/ALSSchlangesans-Bold/ALSSchlangesans-Bold.svg#ALSSchlangesans-Bold') format('svg'),
+    url('/fonts/ALSSchlangesans-Bold/ALSSchlangesans-Bold.ttf') format('truetype'),
+    url('/fonts/ALSSchlangesans-Bold/ALSSchlangesans-Bold.woff') format('woff'),
+    url('/fonts/ALSSchlangesans-Bold/ALSSchlangesans-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ALSSchlangesans-Light';
+    src: url('/fonts/ALSSchlangesans-Light/ALSSchlangesans-Light.eot');
+    src: url('/fonts/ALSSchlangesans-Light/ALSSchlangesans-Light.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/ALSSchlangesans-Light/ALSSchlangesans-Light.svg#ALSSchlangesans-Light') format('svg'),
+    url('/fonts/ALSSchlangesans-Light/ALSSchlangesans-Light.ttf') format('truetype'),
+    url('/fonts/ALSSchlangesans-Light/ALSSchlangesans-Light.woff') format('woff'),
+    url('/fonts/ALSSchlangesans-Light/ALSSchlangesans-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SFUIDisplay-Semibold';
+    src: url('/fonts/SFUIDisplay-Semibold/SFUIDisplay-Semibold.eot');
+    src: url('/fonts/SFUIDisplay-Semibold/SFUIDisplay-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/SFUIDisplay-Semibold/SFUIDisplay-Semibold.svg#SFUIDisplay-Semibold') format('svg'),
+    url('/fonts/SFUIDisplay-Semibold/SFUIDisplay-Semibold.ttf') format('truetype'),
+    url('/fonts/SFUIDisplay-Semibold/SFUIDisplay-Semibold.woff') format('woff'),
+    url('/fonts/SFUIDisplay-Semibold/SFUIDisplay-Semibold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*global*/
+.body-background {
+    background: #0A0F1B;
+}
+/*header*/
+.header {
+    max-width: 1104px;
+}
+.logo>span {
+    color: #54B8FF;
+}
+.resource>span {
+    font-family: "SFUIDisplay-Semibold", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+}
+.resource>p {
+    font-family: "SFUIDisplay-Semibold", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    color: #F8B932;
+}
+.navbar {
+    font-family: "SFUIDisplay-Semibold", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+}
+.subscribe>button {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 91.41%, rgba(255, 255, 255, 0.2) 100%), linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 11.72%), linear-gradient(180deg, rgba(255, 255, 255, 0.22) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(278.48deg, #559A79 0%, #24719D 48.44%, #33379C 100%), linear-gradient(97.3deg, #2F80ED 0%, #D0596A 100%), #FF7800;
+}
+/*main*/
+/*first block*/
+.first-block {
+    background-image: url('/images/background.png');
+    border-radius: 24px;
+}
+.laptop {
+    top: -150px;
+    right: -380px;
+    width: 58%;
+}
+.ipad {
+    top: -25px;
+    left: -150px;
+    width: 30%;
+    transform: rotate(40deg);
+}
+.phone {
+    bottom: -155px;
+    left: -755px;
+}
+.start-date {
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 1.11em;
+    text-transform: uppercase;
+}
+.first-block>h3 {
+    font-family: 'ALSSchlangesans-Light', sans-serif;
+    font-size: 60px;
+    line-height: 120px;
+}
+.first-block>h2 {
+    font-family: "ALSSchlangesans-Bold", sans-serif;
+    font-size: 106px;
+    line-height: 120px;
+}
+.ux-ui-elements {
+    position: relative;
+    display: inline-block;
+}
+.ux-ui-elements::before,
+.ux-ui-elements::after {
+    content: 'UX';
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 120px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    display: block;
+    top: -22px;
+    left: 5px;
+}
+.ux-ui-elements::after {
+    content: 'UI';
+    top: 25px;
+    left: 8px;
+}
+.first-block>p {
+    font-family: "SFUIDisplay-Semibold", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+}
+.user-avatar {
+    background-image: url("/images/user.jpg");
+}
+.user-description {
+    font-family: "SFUIDisplay-Semibold", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+}
+.checklist>div {
+    z-index: 10;
+    position: relative;
+}
+.checklist>div::after {
+    display: block;
+    background: white;
+    width: 98%;
+    height: 115%;
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 1px;
+    border-radius: 52%/10%;
+    z-index: -1;
+}
+/*second block*/
+.second-block>h2,
+.third-block>div>h2,
+.fourth-block>h2 {
+    font-family: "SFUIDisplay-Semibold", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 67px;
+    color: white;
+}
+.second-block>h2>span,
+.third-block>div>h2>span,
+.fourth-block>h2>span {
+    color: #F8B932;
+}
+.wishlist-number-one,
+.wishlist-number-two,
+.wishlist-number-three {
+    height: 330px;
+}
+.wishlist-number-four,
+.wishlist-number-five,
+.wishlist-number-six {
+    height: 300px;
+}
+.wishlist>div>p {
+    font-family: "SFUIDisplay-Semibold", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 26px;
+    color: white;
+}
+.wishlist-number {
+    font-family: "SFUIDisplay-Semibold", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 137px;
+    line-height: 163px;
+    color: #F2F2F2;
+    opacity: 0.1;
+    position: absolute;
+}
+/*third block*/
+.third-block {
+    background: #1D383B;
+    border-radius: 32px;
+    margin-top: 90px;
+}
+.third-block>div>p {
+    font-family: "SFUIDisplay-Semibold", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #E0E0E0;
+}
+.average-payment>div {
+    font-family: "SFUIDisplay-Semibold", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 26px;
+    color: #BDBDBD;
+}
+.average-payment>strong {
+    color: white;
+}
+.phone-all>p>strong {
+    font-weight: bold;
+}
+.phone-base {
+    left: -75px;
+    width: 105%;
+}
+.yellow-round {
+    background: #F2C94C;
+    height: 620px;
+    width: 620px;
+    top: 475px;
+    left: 500px;
+}
+.phone-mask {
+    top: 450px;
+    left: 509px;
+}
+.phone-mask>img {
+    width: 94%;
+}
+.phone-all>p {
+    font-family: "SFUIDisplay-Semibold", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    top: 670px;
+    left: 910px;
+}
+/*fourth block*/
+.course-modules>div:nth-child(1) {
+    margin-right: -80px;
+}
+.course-modules>div:nth-child(2) {
+    margin-right: -67px;
+    margin-top: -10px;
+}
+.course-modules>div:nth-child(3) {
+    margin-right: -30px;
+}
+.course-modules>div:nth-child(4) {
+    margin-left: -30px;
+    margin-top: 10px;
+}
+.course-modules>div:nth-child(5) {
+    margin-left: -50px;
+    margin-top: 10px;
+}
+.course-modules>div:nth-child(6) {
+    margin-left: -60px;
+    margin-top: 10px;
+}

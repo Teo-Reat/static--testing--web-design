@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'ALSSchlangesans-Bold';
+  src: url('ALSSchlangesans-Bold.eot');
+  src: url('ALSSchlangesans-Bold.eot?#iefix') format('embedded-opentype'),
+       url('ALSSchlangesans-Bold.svg#ALSSchlangesans-Bold') format('svg'),
+       url('ALSSchlangesans-Bold.ttf') format('truetype'),
+       url('ALSSchlangesans-Bold.woff') format('woff'),
+       url('ALSSchlangesans-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
