@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body class="body-background">
-<div class="container mx-auto max-w-screen-xl overflow-hidden">
 <header class="md:flex xsm::hidden justify-between mx-auto">
     <div class="logo my-4">
         <img src="public/images/logo.svg" alt="" class="inline-block">
@@ -32,10 +31,11 @@
     </div>
 </header>
 <main>
-    <section class="first-block bg-cover text-white text-center py-12 relative overflow-hidden">
+    <div class="container mx-auto  overflow-hidden">
+        <section class="first-block bg-cover text-white text-center py-12 relative overflow-hidden">
         <img src="public/images/laptop.png" alt="" class="laptop absolute xsm::hidden md:block">
         <img src="public/images/ipad.png" alt="" class="ipad absolute xsm::hidden md:block">
-        <img src="public/images/2132132312%201.png" alt="" class="phone absolute xsm::hidden md:block">
+        <img src="public/images/1-st-block-phone.png" alt="" class="phone absolute xsm::hidden md:block">
         <div class="md xsm::text-xs start-date mt-4">старт 5 мая</div>
         <h3 class="mt-8">Онлайн-курс по</h3>
         <h2 class="mt-4">Веб<span class="ux-ui-elements">-</span>дизайну</h2>
@@ -69,7 +69,9 @@
             </p>
         </div>
     </section>
-    <section class="second-block mt-16">
+    </div>
+    <div class="container mx-auto max-w-screen-xl overflow-hidden">
+        <section class="second-block mt-16">
         <h2 class="text-center">Курс
             <br class="xsm::block md:hidden">подходит
             <br class="xsm::block md:hidden">
@@ -110,7 +112,9 @@
             </div>
         </div>
     </section>
-    <section class="third-block pt-12 relative xsm::w-11/12 xsm::mx-auto md:pb-12">
+    </div>
+    <div class="container mx-auto max-w-screen-xl overflow-hidden">
+        <section class="third-block pt-12 relative xsm::w-11/12 xsm::mx-auto md:pb-12">
         <div class="xsm::w-full lg:max-w-screen-lg mx-auto xsm::px-0 md:px-8">
             <h2 class="w-10/12 mt-8 xsm::ml-6">Направление
                 <br class="xsm::block md:hidden">веб-дизайнера,
@@ -182,7 +186,10 @@
             </div>
         </div>
     </section>
-    <section class="fourth-block py-16 mt-12">
+    </div>
+    <div class="overflow-hidden course-section">
+        <div class="bg-cover"></div>
+        <section class="fourth-block py-16 mt-12 max-w-screen-xl mx-auto">
         <h2 class="text-center">Курс состоит <span>из 6-ти модулей</span></h2>
         <div class="course-modules flex justify-center mt-12 xsm::flex-wrap md:flex-no-wrap">
             <div class="xsm::w-1/2">
@@ -205,6 +212,7 @@
             </div>
         </div>
     </section>
+    </div>
 </main>
 </div>
 </body>
